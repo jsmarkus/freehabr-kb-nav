@@ -1,0 +1,12 @@
+{
+    "name": "Freehabr.ru keyboard navigation",
+    "version": "0.0.3",
+    "description": "Добавляет сочетания клавиш для быстрой навигации по СвободноХабру. Ctrl+'Стрелка вправо', Ctrl+'Стрелка влево'",    
+    "content_scripts": [{
+        "matches": ["http://freehabr.ru/*", "http://www.freehabr.ru/*"],
+        "js": ["content.js"]
+    }],
+    "icons": {
+		"128":"128.png"
+	}
+}
